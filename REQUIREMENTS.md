@@ -19,13 +19,30 @@ Requirements to be a Nuclear Interactive scripter.
 ### Scripting Layout
 ```lua
 --[=[Services]=]--
+local Players = game:GetService("Players")
 --[=[Directories]=]--
+local Packages = game.ReplicatedFirst.Packages
 --[=[Packages]=]--
+local Promise = require(Packages.Promise)
 --[=[Utilities]=]--
+local PromiseUtil = require(game.ReplicatedStorage.PromiseUtil)
 --[=[Modules]=]--
+local Config = require(game.ReplicatedStorage.Config)
 --[=[Types]=]--
+type Promise = typeof(Promise.new())
 --[=[Utility functions]=]--
+local function utilFunc()
+    print("util func executed")
+end
 --[=[Main functions]=]--
+local function MainFunc()
+    utilFunc()
+    print("main func executed")
+end
+--[=[Connections]=]--
+workspace.ChildAdded:Connect(MainFunc)
 --[=[Code]=]--
+MainFunc()
+print("Something")
 ```
 This isn't enforced strictly but use this layout to an extent for readability.
