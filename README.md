@@ -4,6 +4,7 @@
 A Roblox game development studio.
 
 ## Links
+- [Scripter Requirements](https://github.com/Nuclear-Interactive/.github/blob/main/REQUIREMENTS.md)
 - [Discord Server](https://discord.gg/rTsxMxy8nW)
 - [Roblox Group](https://www.roblox.com/groups/7778888/Nuclear-Interactive)
 
