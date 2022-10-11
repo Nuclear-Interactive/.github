@@ -15,8 +15,8 @@ A Roblox game development studio.
 ## The Team
 ### Scripters
 - Synthranger_#1764
-- Tofu#6900
-- reimakesgames#8482
+- Tofu#6376 
+- reimakesgames#3672
 ### Modelers
 - daraspul#4200
 ### Builders
